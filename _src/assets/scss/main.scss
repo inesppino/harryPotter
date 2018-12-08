@@ -4,6 +4,8 @@ body {
 	margin: 0;
 	background: $color-white;
 	height: 100vh;
+	font-family: $font-potter;
+	background: #c8d5b9;
 }
 
 .page__header{
@@ -22,6 +24,9 @@ body {
 
 .copy{
 	height: auto;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
 }
 
 .main__result{
@@ -41,6 +46,8 @@ body {
 	cursor: pointer;
 	border-radius: 25px;
 	width: 120px;
+	font-family: $font-potter;
+	font-weight: bold;
 }
 
 .page__main{
@@ -91,6 +98,7 @@ body {
 	margin-top: 10px;
 	border-radius: 10px;
 	text-align: center;
+	font-weight: bold;
 }
 
 .gryff{
