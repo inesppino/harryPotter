@@ -6,30 +6,114 @@ body {
 	height: 100vh;
 }
 
+.page__header{
+	height: auto;
+	text-align: center;
+}
+
 .page__main{
-	min-height: 70vh;
+	position: relative;
+}
+
+.main_title{
+	text-transform: capitalize;
+	padding-top: 20px;
+}
+
+.copy{
+	height: auto;
+}
+
+.main__result{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.main__button{
+	padding: 5px 10px;
+	color:black;
+	background-color: #aaa;
+	font-size: 20px;
+	border: 2px solid silver;
+	outline: none;
+	cursor: pointer;
+	border-radius: 25px;
+	width: 120px;
+}
+
+.page__main{
+	min-height: 80vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	background: url('../images/hp.jpg') center center no-repeat;
 	background-size: cover;
 }
 
-.gryff{
+.wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
 
+.emblem_g{
+	grid-column: 1 / 2;
+	background: url('../images/gry.jpg') center center no-repeat;
+	width: 373px;
+	height: 284px;
+	background-size: cover;
+}
+
+.emblem_r{
+	grid-column: 2 / 3;
+	background: url('../images/ravenclaw.jpg');
+	width: 373px;
+	height: 284px;
+}
+
+.emblem_s{
+	background: url('../images/slytherin.jpg');
+	width: 373px;
+	height: 284px;
+}
+
+.emblem_h{
+	background: url('../images/hufflepuff.jpg');
+	width: 373px;
+	height: 284px;
+}
+
+.house{
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.gryff{
+	color: #ae0001;
+	background-color: #aaa;
 }
 
 .sly{
-
+	color:#2a623d;
+	background-color: #aaa;
 }
 
 .huff{
-
+	color: #f0c75e;
+	background-color: #aaa;
 }
 
 .rave{
+	color:#222f5b;
+	background-color: #aaa;
+}
 
+.opacity{
+	opacity: 0.5;
 }
 
