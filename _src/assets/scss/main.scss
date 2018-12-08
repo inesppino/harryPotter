@@ -3,7 +3,7 @@
 body {
 	margin: 0;
 	background: $color-white;
-	height: 100vh;
+	// height: 100vh;
 	font-family: $font-potter;
 	background: #c8d5b9;
 }
@@ -19,7 +19,8 @@ body {
 
 .main_title{
 	text-transform: capitalize;
-	padding-top: 20px;
+	margin: 0;
+	padding: 10px;
 }
 
 .copy{
@@ -27,6 +28,7 @@ body {
 	text-transform: uppercase;
 	font-size: 20px;
 	text-align: center;
+	padding-top: 5px;
 }
 
 .main__result{
