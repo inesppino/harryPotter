@@ -1,0 +1,35 @@
+@import 'core/settings';
+
+body {
+	margin: 0;
+	background: $color-white;
+	height: 100vh;
+}
+
+.page__main{
+	min-height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	background: url('../images/hp.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.gryff{
+
+}
+
+.sly{
+
+}
+
+.huff{
+
+}
+
+.rave{
+
+}
+
